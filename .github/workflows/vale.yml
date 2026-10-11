@@ -1,6 +1,6 @@
 ---
 
-# Managed by gridwatch/infrastructure-github.
+# Managed by fd1x/infrastructure-github.
 # Manual edits will be overwritten on the next `terraform apply`.
 
 name: Vale
@@ -41,13 +41,13 @@ jobs:
     # manifests and lockfiles, which carry no prose.
     #
     # Fork pull requests and runs inside a fork get no Actions secrets either,
-    # so they would fail the same way; the job runs only in the gridwatch
+    # so they would fail the same way; the job runs only in the fd1x
     # organization, for pull requests from its own branches.
     if: >-
-      ${{ github.repository_owner == 'gridwatch'
+      ${{ github.repository_owner == 'fd1x'
       && github.actor != 'dependabot[bot]'
       && !github.event.pull_request.head.repo.fork }}
-    uses: gridwatch/.github/.github/workflows/vale.yml@a20f2296bcfc62f6da16655cfbdd409e1b36cdc9  # v20261011-2
+    uses: fd1x/.github/.github/workflows/vale.yml@a20f2296bcfc62f6da16655cfbdd409e1b36cdc9  # v20261011-2
     # Passed explicitly, never left to the reusable's default: drift would change
     # what gets linted with nothing in review showing it.
     with:
