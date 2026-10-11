@@ -1,8 +1,8 @@
-# GRIDWATCH git attributes — canonical policy.
+# FD1x git attributes — canonical policy.
 #
-# Managed centrally by Terraform in gridwatch/infrastructure-github; do not
+# Managed centrally by Terraform in fd1x/infrastructure-github; do not
 # edit this file by hand — edit the template instead.
-# Source: gridwatch/infrastructure-github/templates/config/gitattributes.tftpl
+# Source: fd1x/infrastructure-github/templates/config/gitattributes.tftpl
 #
 # Default: every text file gets LF on checkout regardless of the developer's
 # `core.autocrlf`. Linux tooling (containers, CI runners, Atlas, Terraform
