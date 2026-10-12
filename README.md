@@ -1,11 +1,11 @@
 # scoop-bucket
 
-Scoop bucket for GRIDWATCH command-line tools.
+Scoop bucket for FD1x command-line tools.
 
 ## Usage
 
 ```powershell
-scoop bucket add gridwatch https://github.com/gridwatch/scoop-bucket
+scoop bucket add gridwatch https://github.com/fd1x/scoop-bucket
 scoop install sightline
 ```
 

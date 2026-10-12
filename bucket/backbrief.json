@@ -2,21 +2,21 @@
     "version": "20261010-1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gridwatch/backbrief/releases/download/v20261010-1/backbrief_20261010-1_windows_amd64.zip",
+            "url": "https://github.com/fd1x/backbrief/releases/download/v20261010-1/backbrief_20261010-1_windows_amd64.zip",
             "bin": [
                 "backbrief.exe"
             ],
             "hash": "ef340a4d696b1169b2bece6e84b070070c51ab47165e78c91eaf52722e5894d4"
         },
         "arm64": {
-            "url": "https://github.com/gridwatch/backbrief/releases/download/v20261010-1/backbrief_20261010-1_windows_arm64.zip",
+            "url": "https://github.com/fd1x/backbrief/releases/download/v20261010-1/backbrief_20261010-1_windows_arm64.zip",
             "bin": [
                 "backbrief.exe"
             ],
             "hash": "090808b3f7fae5a0f1f839fb8f249716b7d0fac66c82e6476215068ded096f39"
         }
     },
-    "homepage": "https://github.com/gridwatch/backbrief",
+    "homepage": "https://github.com/fd1x/backbrief",
     "license": "Apache-2.0",
-    "description": "Repository status board for the GRIDWATCH org"
+    "description": "Repository status board for the fd1x org"
 }
