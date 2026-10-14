@@ -1,0 +1,22 @@
+{
+    "version": "20261014-1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/fd1x/sightline/releases/download/v20261014-1/sightline_20261014-1_windows_amd64.zip",
+            "bin": [
+                "sightline.exe"
+            ],
+            "hash": "8bca31011dd099ebbc924ff7e894ec55997c3d332a6c8be75dc16d7f125a1a14"
+        },
+        "arm64": {
+            "url": "https://github.com/fd1x/sightline/releases/download/v20261014-1/sightline_20261014-1_windows_arm64.zip",
+            "bin": [
+                "sightline.exe"
+            ],
+            "hash": "39a14a8403c3a2bf6810e1bbf55c5b5f61d13c1f5edeef71f5f7f8558664532c"
+        }
+    },
+    "homepage": "https://github.com/fd1x/sightline",
+    "license": "Proprietary",
+    "description": "CLI for the ICEYE Constellation API Suite (ICAS)"
+}
