@@ -1,0 +1,22 @@
+{
+    "version": "20261014-1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/fd1x/terp/releases/download/v20261014-1/terp_20261014-1_windows_amd64.zip",
+            "bin": [
+                "terp.exe"
+            ],
+            "hash": "a169fdcb13fac6f60af3f1466886d8b8aebed7951f9508967d1dea7666ffbdf0"
+        },
+        "arm64": {
+            "url": "https://github.com/fd1x/terp/releases/download/v20261014-1/terp_20261014-1_windows_arm64.zip",
+            "bin": [
+                "terp.exe"
+            ],
+            "hash": "33d65ff93e8e54cc117c6795b97728cc649fab6425354b716fcaeb4775e9d229"
+        }
+    },
+    "homepage": "https://github.com/fd1x/terp",
+    "license": "Apache-2.0",
+    "description": "Translation CLI backed by Azure Translator"
+}
