@@ -47,7 +47,7 @@ jobs:
       ${{ github.repository_owner == 'fd1x'
       && github.actor != 'dependabot[bot]'
       && !github.event.pull_request.head.repo.fork }}
-    uses: fd1x/.github/.github/workflows/vale.yml@9ea9762ac8a2ac3681fc6999ac727f0e7b5ce808  # v20261013-4
+    uses: fd1x/.github/.github/workflows/vale.yml@efb79cd1186673663e1282fa9cb656aac9b663df  # v20261015-1
     # Passed explicitly, never left to the reusable's default: drift would change
     # what gets linted with nothing in review showing it.
     with:
