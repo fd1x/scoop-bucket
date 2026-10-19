@@ -1,19 +1,19 @@
 {
-    "version": "20261018-1",
+    "version": "20261019-1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fd1x/terp/releases/download/v20261018-1/terp_20261018-1_windows_amd64.zip",
+            "url": "https://github.com/fd1x/terp/releases/download/v20261019-1/terp_20261019-1_windows_amd64.zip",
             "bin": [
                 "terp.exe"
             ],
-            "hash": "f63c2fe0d52a5119e61317ecd5f2e2a72070e3f3c8732b28efed01a29bc03948"
+            "hash": "b2ac11c0e4fa984aed2923fc130254762bd2f97287e830f5585fed30bba64881"
         },
         "arm64": {
-            "url": "https://github.com/fd1x/terp/releases/download/v20261018-1/terp_20261018-1_windows_arm64.zip",
+            "url": "https://github.com/fd1x/terp/releases/download/v20261019-1/terp_20261019-1_windows_arm64.zip",
             "bin": [
                 "terp.exe"
             ],
-            "hash": "f38b38ce8656cba6585765295480733428de78884157d98f8fb5d0d116ca941a"
+            "hash": "a2117647522eecd5bbbc5a909976ca0d8602f1319377e35afb3aa9c9aab6da2f"
         }
     },
     "homepage": "https://github.com/fd1x/terp",
