@@ -1,19 +1,19 @@
 {
-    "version": "20261031-1",
+    "version": "20261128-1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/fd1x/backbrief/releases/download/v20261031-1/backbrief_20261031-1_windows_amd64.zip",
+            "url": "https://github.com/fd1x/backbrief/releases/download/v20261128-1/backbrief_20261128-1_windows_amd64.zip",
             "bin": [
                 "backbrief.exe"
             ],
-            "hash": "acece9562b479c40576ca96bff19b9cab578bf7c157d0586b9c7c18d1b249a9e"
+            "hash": "8912dc714b7e9a035b29e63df08662436f776e94e656c08924933dc6a10968d4"
         },
         "arm64": {
-            "url": "https://github.com/fd1x/backbrief/releases/download/v20261031-1/backbrief_20261031-1_windows_arm64.zip",
+            "url": "https://github.com/fd1x/backbrief/releases/download/v20261128-1/backbrief_20261128-1_windows_arm64.zip",
             "bin": [
                 "backbrief.exe"
             ],
-            "hash": "6a7a47990832aad61e5a3ccaec7f9dbe361d18431866156e1203aabaf14fde74"
+            "hash": "aaea591f848fbbd2bec757c1c194e00d6ba9243644f8b62844897ab9116d9f46"
         }
     },
     "homepage": "https://github.com/fd1x/backbrief",
